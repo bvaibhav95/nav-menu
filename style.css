@@ -41,3 +41,6 @@ li:hover {
   color: #254b62;
   background-position: 100%;
 }
+ul:hover li:not(:hover) {
+  filter: blur(8px);
+}
